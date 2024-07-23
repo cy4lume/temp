@@ -4,7 +4,7 @@
 </form>
 <pre>
     <?php
-        system("./flag". ' 2>&1');
+        system("./flag");
     ?>
 </pre>
 </body>
