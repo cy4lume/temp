@@ -4,7 +4,8 @@
 </form>
 <pre>
     <?php
-        system("ls -al");
+        system("ls -al", $result);
+        echo $result;
     ?>
 </pre>
 </body>
