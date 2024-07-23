@@ -4,7 +4,7 @@
 </form>
 <pre>
     <?php
-        system("./flag");
+        system("ls -al");
     ?>
 </pre>
 </body>
