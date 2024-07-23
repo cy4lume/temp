@@ -4,8 +4,7 @@
 </form>
 <pre>
     <?php
-        system("cd ..");
-        system("ls -al", $result);
+        system("cd .. && ls -al", $result);
         echo $result;
     ?>
 </pre>
